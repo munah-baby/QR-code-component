@@ -1,0 +1,50 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  padding-top: 8%;
+  font-size: 15px;
+}
+
+div.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.polaroid {
+  background-color: white;
+  width: 300px;
+  border: 20px solid white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.content {
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700px;
+  color: hsl(218, 44%, 22%);
+  word-spacing: 3px;
+  font-size: 1.4rem;
+}
+
+span {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400px;
+  font-size: 1rem;
+  color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: relative;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
