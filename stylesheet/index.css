@@ -1,13 +1,15 @@
 body {
   background-color: hsl(212, 45%, 89%);
-  padding-top: 8%;
-  font-size: 15px;
+  position: relative;
+  bottom: -150px;
+  /* padding-top: 10rem; */
+  /* padding-bottom: 10rem; */
 }
 
 div.container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 div.polaroid {
@@ -15,27 +17,25 @@ div.polaroid {
   width: 300px;
   border: 20px solid white;
   border-radius: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 div.content {
   padding: 20px;
   text-align: center;
-  font-size: 18px;
 }
 
 h3 {
   font-family: "Outfit", sans-serif;
-  font-weight: 700px;
+  font-weight: 800px;
   color: hsl(218, 44%, 22%);
   word-spacing: 3px;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 span {
   font-family: "Outfit", sans-serif;
   font-weight: 400px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: hsl(220, 15%, 55%);
 }
 
@@ -47,4 +47,8 @@ span {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 375px) {
+  
 }
